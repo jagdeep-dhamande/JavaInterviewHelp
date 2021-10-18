@@ -10,4 +10,7 @@ Here I will collect java interview questions and links to there answers
     - Starts spring application context
     - Performs full class path scan
     - starts tomcat server
-4.
+4. How environment configurations are managed for dev/prod/uat environment?
+    - Profiles are used to manage environment configuration
+    - Different application-<env>.properties are created for different environment
+    - Active profile can be configured with "spring.profile.active" property or jvm argument -Dspring.profile.active
