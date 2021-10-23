@@ -25,3 +25,8 @@ Here I will collect java interview questions and links to there answers
 8. How to map model property as primary key for corresponding database table ? and can it be autogenaretd ?
     With anotation @Id model property can be mapped as primary key of table and with @GeneratedValue its auto generation can be configured.for example
     @GeneratedValue (strategy = GenerationType.Identity)
+9. What is CORS ? How it is used in Spring application
+    CORS = Cross origin request sharing. In a distributed application  , services might have different domains or different platform written in different languages.
+    So request comming to microservice might have different origin. With CORS we can define the verified request origin and also define support for different http methods.
+    In spring this can be achieved with @CORSOrigin annotation
+    
