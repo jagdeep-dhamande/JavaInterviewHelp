@@ -29,4 +29,29 @@ Here I will collect java interview questions and links to there answers
     CORS = Cross origin request sharing. In a distributed application  , services might have different domains or different platform written in different languages.
     So request comming to microservice might have different origin. With CORS we can define the verified request origin and also define support for different http methods.
     In spring this can be achieved with @CORSOrigin annotation
+10. What are the important unit test annotations you have used in spring boot application ?
+    <p>
+       - @Mock 
+       - @InjectMOck
+       - @SpringBootTest = Searches for class having main method and initialises context required
+       - @WebMvcTest = Used to test MVC controller , it creates MOck MVC environment and required spring security 
+       - @MockBean = Its warpper around Mockito . It mocks all the dependencies for the class under test
+        
+ **Git**
+        
+ 1. What are different git commands you have used ?
+        checkout , branch , add , commit , push
+ 2. Which GUI based git tool you have used ? 
+        Git Tortise , Integration provided in Intellij
+ 3. What is differnce between Fetch and Pull ? 
+        - Fetch brings only list of file changed on remote repository as compared to local repository
+        - Pull brings actaul changes to local repository
+       
+ 4. What is difference between reset and revert ?
+        <p>   
+        reset gives option to move code back to a particular commit id . In this process changes/commits after that particular commit are lost
+        <p>
+        revert it undo changes done in earlier commit by removing the changes done earlier commit with a new commmit . No changes are lost in this process
+ 5. What is git rebase ? when would you use it ? 
+        
     
