@@ -52,6 +52,6 @@ Here I will collect java interview questions and links to there answers
         reset gives option to move code back to a particular commit id . In this process changes/commits after that particular commit are lost
         <p>
         revert it undo changes done in earlier commit by removing the changes done earlier commit with a new commmit . No changes are lost in this process
- 5. What is git rebase ? when would you use it ? 
+ 5. What is difference between git rebase and git merge ? when would you use rebase or merge ? 
         
     
