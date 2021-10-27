@@ -53,5 +53,8 @@ Here I will collect java interview questions and links to there answers
         <p>
         revert it undo changes done in earlier commit by removing the changes done earlier commit with a new commmit . No changes are lost in this process
  5. What is difference between git rebase and git merge ? when would you use rebase or merge ? 
+       Both rebase and merge are used to merge changes of one repository into other . Major difference between both is about keeping the histroy of commits.
+       In case of git rebase new commit is made for every commit in main and feature is moved to tip of main. In case of merge commit histroy is maintained and all commits are
+       merged as single commit . In case of merge if main branch is very active multiple commits needs to be merged
         
     
