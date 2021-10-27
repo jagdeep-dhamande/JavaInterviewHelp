@@ -58,3 +58,10 @@ Here I will collect java interview questions and links to there answers
        merged as single commit . In case of merge if main branch is very active multiple commits needs to be merged
         
     
+            
+**Jenkins**
+  1) what is jenkins ? 
+  2) What is CI/CD ? 
+  3) How to write a jenkins file ? 
+  4) What are steps to automate the deployment ? 
+  5) How to pass params and input to jenkins build ?
