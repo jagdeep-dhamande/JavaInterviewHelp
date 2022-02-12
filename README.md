@@ -65,3 +65,18 @@ Here I will collect java interview questions and links to there answers
   3) How to write a jenkins file ? 
   4) What are steps to automate the deployment ? 
   5) How to pass params and input to jenkins build ?
+
+
+**SQL/ Databse Questions**
+1) What is order of execution of clause like where , having , group by and group function in sql query?
+    1.  FROM
+    2.  ON
+    3.  JOIN
+    4.  WHERE
+    5.  GROUP BY
+    6.  WITH CUBE or WITH ROLLUP
+    7.  HAVING
+    8.  SELECT
+    9.  DISTINCT
+    10. ORDER BY
+    11. TOP
