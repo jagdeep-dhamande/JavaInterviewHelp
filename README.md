@@ -80,3 +80,18 @@ Here I will collect java interview questions and links to there answers
     9.  DISTINCT
     10. ORDER BY
     11. TOP
+            
+            
+**JAVA**
+1.What are types of grabage collectors available in JVM
+    a) Serial GC
+            It is single threaded GC
+    b) Parallel GC
+            it uses multiple threads for managing heap space
+    c) CMS (Concurrent Mark and Sweep)
+            It uses multiple garbage collector threads for garbage collection
+    d) G1 (Garbage First) (Java 8 +)
+            G1 knows which regions are mostly empty. It collects in these areas first, which usually yields a significant amount of free space
+    e) Z Grabage Collector (Java 11 +)
+            It uses load barriers with colored pointers to perform concurrent operations when the threads are running
+            
