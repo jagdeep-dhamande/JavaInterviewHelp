@@ -36,7 +36,8 @@ Here I will collect java interview questions and links to there answers
        - @SpringBootTest = Searches for class having main method and initialises context required
        - @WebMvcTest = Used to test MVC controller , it creates MOck MVC environment and required spring security 
        - @MockBean = Its warpper around Mockito . It mocks all the dependencies for the class under test
-        
+ 11) How would you create a Spring Boot Project for employee service ? Mainly intension is to know what would add in spring service to make Prod ready ?
+        Unit test , Auth , Service etc.
  **Git**
         
  1. What are different git commands you have used ?
@@ -66,7 +67,16 @@ Here I will collect java interview questions and links to there answers
   4) What are steps to automate the deployment ? 
   5) How to pass params and input to jenkins build ?
 
-
+**Cloud**
+ 1) What cloud services do you use ? 
+ 2) Whats are different EC2 instances in AWS ?
+            
+**Angular**
+  1) What are important directives you are aware of ?
+  2) How would dispaly a list of Employee on UI ? Like Name , Address , Age etc
+  3) How would read user details from form and create user object ?
+  
+            
 **SQL/ Databse Questions**
 1) What is order of execution of clause like where , having , group by and group function in sql query?
     1.  FROM
@@ -95,3 +105,7 @@ Here I will collect java interview questions and links to there answers
     e) Z Grabage Collector (Java 11 +)
             It uses load barriers with colored pointers to perform concurrent operations when the threads are running
             
+2. How would you check if a list provided is empty  or not using Java 8 Feature ? (Hint : Optional)
+     a) How would check if objects of list are empty or not while iterating (Using JAVA 8 Feature)?
+     b) How would change Name of employees to camel case
+3)Suppose a List is having names of employees. Names can be repeated . How would count the name of eomployees usng Java 8  feature.
